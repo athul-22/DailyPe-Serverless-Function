@@ -9,7 +9,7 @@ from functions_framework import create_app
 cred = credentials.ApplicationDefault()
 firebase_admin.initialize_app(cred)
 db = firestore.client()
-
+ 
 app = create_app()
 
 # CREATE USER ROUTE
